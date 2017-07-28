@@ -1,7 +1,7 @@
 const electron = require('electron')
 const {app, BrowserWindow} = electron
 
-process.env.GOOGLE_API_KEY = "AIzaSyARzgsg8G3g3uF60a3dpmif4QLNceKIcUA"; // API pour utiliser la GEOLOC
+process.env.GOOGLE_API_KEY = ""; // API pour utiliser la GEOLOC
 
 app.on('ready', () => {
 
